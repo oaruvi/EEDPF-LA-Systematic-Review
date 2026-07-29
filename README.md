@@ -1,45 +1,45 @@
 # EEDPF-LA: Systematic Review on Student Dropout Prediction in Latin America
 
-Bienvenido al repositorio oficial de material complementario (Open Science) del artículo científico: 
-**"Modelos predictivos de aprendizaje automático y variables determinantes en la deserción estudiantil en educación superior en América Latina: Una revisión sistemática de literatura (2020–2026)"**.
+Welcome to the official repository for the supplementary material (Open Science) of the scientific article: 
+**"Machine learning predictive models and determining variables in student dropout in higher education in Latin America: A systematic literature review (2020–2026)"**.
 
-Este repositorio ha sido creado para garantizar la total transparencia, trazabilidad y reproducibilidad de nuestra Revisión Sistemática de Literatura (SLR), conducida bajo los lineamientos del estándar **PRISMA 2020**.
-
----
-
-## Resumen del Estudio
-A pesar de la probada efectividad de los clasificadores de *Machine Learning* a nivel internacional, su extrapolación al contexto de América Latina presenta vacíos empíricos. Este estudio analiza sistemáticamente 156 investigaciones primarias para evaluar las arquitecturas predictivas, el tratamiento de clases desbalanceadas (ej. SMOTE vs. GANs) y la integración de técnicas de Inteligencia Artificial Explicable (XAI). 
-
-Como contribución teórica central, el artículo propone el **EEDPF-LA** (*Explainable Educational Dropout Prediction Framework for Latin America*), una arquitectura de cinco capas orientada a superar el enfoque predictivo de "caja negra" y fomentar la intervención pedagógica prescriptiva e hiper-personalizada.
-
-### Preguntas de Investigación (PI) abordadas:
-* **PI1:** ¿Cuáles son las variables predictoras (académicas, socioeconómicas, institucionales o demográficas) de mayor prevalencia e impacto algorítmico identificadas en los modelos de predicción de deserción en América Latina?
-* **PI2:** ¿Qué arquitecturas de aprendizaje automático reportan la mayor frecuencia de implementación y efectividad comparativa en la literatura regional reciente?
-* **PI3:** ¿Qué métricas de desempeño y técnicas de preprocesamiento (ante clases desbalanceadas) constituyen el estándar de evaluación del rigor metodológico en estos estudios empíricos?
+This repository has been created to ensure full transparency, traceability, and reproducibility of our Systematic Literature Review (SLR), conducted following the strict guidelines of the **PRISMA 2020** statement.
 
 ---
 
-## Estructura del Repositorio
+## Study Summary
+Despite the proven effectiveness of Machine Learning classifiers internationally, their direct extrapolation to the Latin American context presents empirical and methodological gaps. This study systematically analyzes 156 primary research articles to evaluate predictive architectures, the treatment of imbalanced classes (e.g., SMOTE vs. GANs), and the integration of Explainable Artificial Intelligence (XAI) techniques.
 
-En este repositorio encontrarás los insumos metodológicos detallados:
+As a core theoretical contribution, the article proposes the **EEDPF-LA** (*Explainable Educational Dropout Prediction Framework for Latin America*), a five-layer architecture aimed at overcoming the "black box" predictive approach and fostering prescriptive and hyper-personalized pedagogical interventions.
 
-* **`Cadenas_Busqueda.txt`**: Contiene la parametrización exacta de las ecuaciones de búsqueda booleanas aplicadas en Scopus, Web of Science (WoS), IEEE Xplore y ACM Digital Library.
-* **`ExtraccionDataPrisma.csv`**: Matriz de extracción de datos consolidada. Contiene la codificación manual de las 12 dimensiones analíticas extraídas de los 156 estudios primarios de la muestra final.
-* **`diagrama_prisma.pdf`**: Diagrama de flujo completo según la declaración PRISMA 2020, detallando la inclusión y exclusión de los registros en cada fase.
-* **`Archivos_VOSviewer.zip`**: *Datasets* relacionales exportados para la generación de las redes bibliométricas de coocurrencia (evolución temática) y coautoría analizadas en el Capítulo 4.
-
----
-
-## Sobre el Framework (EEDPF-LA)
-El framework propuesto consolida el estado del arte regional en 5 capas secuenciales:
-1. Ingesta y Gobernanza de Datos (DAMA-DMBOK y Privacidad *by-design*).
-2. Preprocesamiento y Balanceo Sintético mediante Redes Generativas Adversarias (CTGAN / WGAN-GP).
-3. Motor Predictivo Híbrido (Ensambles basados en árboles + Redes Neuronales Recurrentes LSTM).
-4. Inteligencia Artificial Explicable (Modelos agnósticos locales y globales como SHAP y LIME).
-5. Intervención y Diseño Centrado en el Usuario (UX) para reducir la carga cognitiva del gestor académico.
+### Research Questions (RQs) addressed:
+* **RQ1:** Which predictor variables (academic, socioeconomic, institutional, or demographic) have the highest prevalence and algorithmic impact identified in dropout prediction models in Latin America?
+* **RQ2:** Which machine learning architectures report the highest implementation frequency and comparative effectiveness in recent regional literature?
+* **RQ3:** What performance metrics and preprocessing techniques (for imbalanced classes) constitute the evaluation standard of methodological rigor in these empirical studies?
 
 ---
 
-## Contacto
-Para dudas sobre la metodología, el análisis de datos o posibles colaboraciones de investigación, no dude en abrir un *Issue* en este repositorio o contactar a los autores del artículo.
+## Repository Structure
+
+In this repository, you will find the detailed methodological inputs used in the study:
+
+* **`Search_Strings.txt`**: Contains the exact parameterization of the boolean search equations applied in Scopus, Web of Science (WoS), IEEE Xplore, and the ACM Digital Library.
+* **`PrismaDataExtraction.csv`**: The consolidated data extraction matrix. It contains the manual coding of the 12 analytical dimensions extracted from the 156 primary studies in the final sample.
+* **`prisma_diagram.pdf`**: The complete PRISMA 2020 flow diagram, detailing the inclusion and exclusion of records at each phase.
+* **`VOSviewer_Files.zip`**: Relational datasets exported for the generation of the bibliometric co-occurrence (thematic evolution) and co-authorship networks analyzed in Chapter 4.
+
+---
+
+## About the Framework (EEDPF-LA)
+The proposed framework consolidates the regional state-of-the-art into 5 sequential layers:
+1. **Data Ingestion and Governance** (DAMA-DMBOK validation and Privacy *by-design*).
+2. **Preprocessing and Synthetic Balancing** using Generative Adversarial Networks (CTGAN / WGAN-GP).
+3. **Hybrid Predictive Model** (Tree-based Ensembles + Recurrent Neural Networks/LSTM).
+4. **Explainable AI (XAI)** (Local and global model-agnostic techniques such as SHAP and LIME).
+5. **Intervention and User Experience (UX)** (Learning Analytics Dashboards centered on reducing the academic manager's cognitive load).
+
+---
+
+## Contact
+For questions regarding the methodology, data analysis, or potential research collaborations, please feel free to open an *Issue* in this repository or contact the authors of the article directly.
 
