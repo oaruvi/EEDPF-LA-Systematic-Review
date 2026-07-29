@@ -1,0 +1,31 @@
+Base de Datos Sintaxis de la Ecuación de Búsqueda y Parámetros
+
+Scopus 
+TITLE-ABS-KEY ((“student dropout” OR “student attrition” OR “student
+retention” OR “academic failure” OR “dropping out” OR “early departure”
+OR “academic performance” OR “student success”) AND (“machine learning” OR “data mining” OR “deep learning” OR “artificial intelligence” OR
+“predictive model*” OR “classification” OR “educational data mining” OR
+“learning analytics” OR “random forest” OR “neural network*” OR “decision tree*”)) AND LIMIT-TO (AFFILCOUNTRY, “Brazil” OR “Mexico”
+OR “Colombia” OR “Chile” OR “Peru” OR “Argentina” OR “Ecuador”
+OR “Cuba” OR “Venezuela” OR “Costa Rica” OR “Uruguay” OR “Bolivia”
+OR “Paraguay” OR “Panama” OR “Dominican Republic”) AND PUBYEAR
+>2019 AND PUBYEAR <2027
+
+WoS 
+TS=((“student dropout” OR “student attrition” OR “student retention” OR
+“academic failure” OR “dropping out” OR “early departure” OR “academic
+performance” OR “student success”) AND (“machine learning” OR “data mining” OR “deep learning” OR “artificial intelligence” OR “predictive model*”
+OR classification OR “educational data mining” OR “learning analytics”))
+AND CU=(“Brazil” OR “Mexico” OR “Colombia” OR “Chile” OR “Peru”
+OR “Argentina” OR “Ecuador” OR “Venezuela” OR “Cuba” OR “Costa
+Rica” OR “Uruguay” OR “Bolivia” OR “Paraguay” OR “Panama” OR “Dominican Republic”)
+
+IEEE
+Xplore (“student dropout” OR “student attrition” OR “student retention” OR “academic failure”) AND (“machine learning” OR “data mining” OR “predictive”) AND 
+(“Latin America” OR “South America” OR “Brazil” OR “Mexico” OR “Colombia” OR “Chile” OR “Peru”) (Filtro por año de publicación: 2020-2026).
+
+
+ACM 
+Abstract: (student dropout OR attrition OR retention OR academic failure) AND Abstract: (machine learning OR data mining OR predictive) AND
+Abstract: (Latin America OR Brazil OR Mexico OR Colombia OR Chile OR
+Peru)
