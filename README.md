@@ -1,7 +1,7 @@
 # EEDPF-LA: Systematic Review on Student Dropout Prediction in Latin America
 
 Welcome to the official repository for the supplementary material (Open Science) of the scientific article: 
-**"Machine learning predictive models and determining variables in student dropout in higher education in Latin America: A systematic literature review (2020–2026)"**.
+**"Machine Learning Predictive Models and Determinants of Student Dropout in Higher Education in Latin America: A Systematic Literature Review"**.
 
 This repository has been created to ensure full transparency, traceability, and reproducibility of our Systematic Literature Review (SLR), conducted following the strict guidelines of the **PRISMA 2020** statement.
 
